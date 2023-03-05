@@ -25,7 +25,7 @@ namespace WebApplication1
             location = location.Replace(" ", "");
             try
             {
-                string url = "https://www.google.com/maps/embed/v1/place?key=API_KEY"; // Insert your Google Drive API Key here
+                string url = "https://www.google.com/maps/embed/v1/place?key=API_KEY"; // Insert your Google Drive API Key here            
                 string urllocation = url + location;
                 lbl_Location.Text = "<iframe width='450' height='250' frameborder= '0' style='border:0' src=" + urllocation + "></iframe>";
             }
